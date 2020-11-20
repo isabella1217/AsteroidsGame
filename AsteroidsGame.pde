@@ -2,7 +2,7 @@ Spaceship bob = new Spaceship();
 Star[]space = new Star[200];
 public void setup() 
 {
-  size(1000,1000);
+  size(500,500);
   for(int i = 0; i<space.length;i++)
   {
     space[i] = new Star();
